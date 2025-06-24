@@ -25,7 +25,7 @@ Kafka -> Flink (Java) -> ClickHouse -> Airflow (daily summaries)
 
 <h3>Setup</h3>
 1. git clone https://github.com/yongjin1009/cross_border_transaction.git<br>
-2. build Apache_Flink into jar file
+2. build Apache_Flink into jar file<br>
 3. cd cross_border_transaction<br>
 4. docker cp Apache_Flink\target\Apache_Flink-1.0.jar flink_jobmanager:/job.jar<br>
 5. docker compose up --build -d<br>
